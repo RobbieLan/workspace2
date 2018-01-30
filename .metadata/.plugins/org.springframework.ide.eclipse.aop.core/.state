@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="service-feign"/>
+<aop-project name="config-client"/>
+<aop-project name="service-hola"/>
+<aop-project name="config-server"/>
+<aop-project name="eureka-server"/>
+<aop-project name="service-miya"/>
+<aop-project name="server-zipkin"/>
+<aop-project name="service-zuul"/>
+<aop-project name="service-ribbon">
+<aspect-definition advice-class-name="com.netflix.hystrix.contrib.javanica.aop.aspectj.HystrixCommandAspect" advice-method-name="methodsAnnotatedWithHystrixCommand(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="-1" aspect-name="hystrixCommandAspect" aspect-start-line-number="-1" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/service-ribbon/src/main/java/com/csdncloud/serviceribbon/ServiceRibbonApplication.java" pointcut-expression="hystrixCommandAnnotationPointcut() || hystrixCollapserAnnotationPointcut()" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:service-ribbon|3:java:com.csdncloud.serviceribbon.ServiceRibbonApplication|8:helloService:10" bean-file="/service-ribbon/src/main/java/com/csdncloud/serviceribbon/service/HelloService.java" bean-start-line="10" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/service-ribbon/src/main/java/com/csdncloud/serviceribbon/ServiceRibbonApplication.java" source="=service-ribbon/D:\/Programs\/apache-maven-3.5.2\/repository\/com\/netflix\/hystrix\/hystrix-javanica\/1.4.10\/hystrix-javanica-1.4.10.jar&lt;com.netflix.hystrix.contrib.javanica.aop.aspectj(HystrixCommandAspect.class[HystrixCommandAspect~methodsAnnotatedWithHystrixCommand~Lorg.aspectj.lang.ProceedingJoinPoint;" source-start-line="-1" target="=service-ribbon/src\/main\/java&lt;com.csdncloud.serviceribbon.service{HelloService.java[HelloService~hiService~QString;" target-start-line="15"/>
+</aspect-definition>
+</aop-project>
+</aop-reference-model>

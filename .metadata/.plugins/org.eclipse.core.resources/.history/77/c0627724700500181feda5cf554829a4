@@ -1,0 +1,18 @@
+spring.application.name=config-server
+#configuration server uses local cofigs, default is git.
+spring.profiles.active=native 
+server.port=8886
+
+spring.cloud.config.server.native.search-locations: classpath:/config
+
+          
+#spring.cloud.config.server.git.uri=https://github.com/forezp/SpringcloudConfig/
+#spring.cloud.config.server.git.uri=https://github.com/RobbieLan/hello-world/
+#spring.cloud.config.server.git.searchPaths=respo
+#spring.cloud.config.label=master
+#spring.cloud.config.server.git.username=your username
+#spring.cloud.config.server.git.password=your password
+
+#Enable config discovery through eureka, whithout which the app also works well
+eureka.client.serviceUrl.defaultZone=http://localhost:8889/eureka/
+eureka.instance.metadata-map.instancedId=${spring.application.name}:${random.value}

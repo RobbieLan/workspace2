@@ -1,0 +1,16 @@
+#spring.application.name=address
+spring.application.name=config-client
+spring.cloud.config.label=master
+spring.cloud.config.profile=dev
+
+#Link to config-server directly
+spring.cloud.config.uri= http://localhost:8888/
+
+
+#Link to config-server through eureka(high availability)
+#eureka.client.serviceUrl.defaultZone=http://localhost:8889/eureka/
+#spring.cloud.config.discovery.enabled=true
+#spring.cloud.config.discovery.serviceId=config-server
+
+
+server.port=8881

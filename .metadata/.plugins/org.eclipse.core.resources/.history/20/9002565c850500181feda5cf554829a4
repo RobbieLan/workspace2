@@ -1,0 +1,18 @@
+#spring.application.name=address
+spring.application.name=config-client
+
+#Link to config-server directly. This works fine but msg "cannot execute request on any known server keeps coming out in console"
+spring.cloud.config.uri= http://localhost:8886/
+spring.cloud.config.profile=dev
+#spring.profiles.acitive=dev
+
+
+#Link to config-server through eureka(high availability)
+#spring.cloud.config.label=master
+#spring.cloud.config.profile=dev
+#spring.cloud.config.discovery.enabled=true
+#spring.cloud.config.discovery.serviceId=config-server
+#eureka.client.serviceUrl.defaultZone=http://localhost:8889/eureka/
+
+
+server.port=8881

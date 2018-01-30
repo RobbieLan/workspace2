@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.cloud-sleuth-zipkin-stream=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.cloud-zuul=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.zipkin-ui=2
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=server-miya
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=1.5.9.RELEASE
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Spring Cloud Service Miya
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.csdncloud
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=1.8
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=server-miya
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.csdncloud.servicemiya
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=jar
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.version=0.0.1-SNAPSHOT
+org.springframework.ide.eclipse.boot.wizard.initializr.url=http\://start.spring.io\n
